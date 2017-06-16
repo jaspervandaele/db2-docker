@@ -1,7 +1,7 @@
 create database $DBNAME@
 
 connect to $DBNAME@
-grant SQLADM on database to user $DBUSER@
+grant DBADM on database to user $DBUSER@
 
 
 --table spaces: execute once
